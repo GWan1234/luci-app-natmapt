@@ -514,7 +514,7 @@ return view.extend({
 			return enforward ? ((cval == '0' && refresh) ? cltname : cval) : _('No');
 		};
 
-		o = s.taboption('forward', form.Flag, 'refresh', _('Refresh client'), _('Set 0 will rewrite client listen port'));
+		o = s.taboption('forward', form.Flag, 'refresh', _('Refresh client'), _('%s set 0 will rewrite client listen port').format(_('Forward target port')));
 		o.default = o.disabled;
 		o.rmempty = false;
 		o.retain = true;
