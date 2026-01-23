@@ -288,7 +288,7 @@ msgid "Refresh Scripts"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/natmap.js:517
-msgid "Refresh client listen port"
+msgid "Refresh client"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/natmap.js:138
@@ -325,6 +325,10 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/natmap.js:494
 msgid "Set 0 will follow Public port"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/natmap.js:517
+msgid "Set 0 will rewrite client listen port"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/natmap.js:741

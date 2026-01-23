@@ -294,8 +294,8 @@ msgid "Refresh Scripts"
 msgstr "用戶端更新腳本"
 
 #: htdocs/luci-static/resources/view/natmap.js:517
-msgid "Refresh client listen port"
-msgstr "更新用戶端監聽埠"
+msgid "Refresh client"
+msgstr "更新用戶端"
 
 #: htdocs/luci-static/resources/view/natmap.js:138
 #: htdocs/luci-static/resources/view/natmap.js:139
@@ -332,6 +332,10 @@ msgstr "服務"
 #: htdocs/luci-static/resources/view/natmap.js:494
 msgid "Set 0 will follow Public port"
 msgstr "設為 0 將遵循公共埠"
+
+#: htdocs/luci-static/resources/view/natmap.js:517
+msgid "Set 0 will rewrite client listen port"
+msgstr "設為 0 將重寫用戶端監聽埠"
 
 #: htdocs/luci-static/resources/view/natmap.js:741
 msgid "SvcParams"
@@ -467,3 +471,6 @@ msgstr "luci 檢查可能無法檢測到所有衝突"
 #: htdocs/luci-static/resources/view/natmap.js:760
 msgid "⭮"
 msgstr ""
+
+#~ msgid "Refresh client listen port"
+#~ msgstr "更新用戶端監聽埠"
